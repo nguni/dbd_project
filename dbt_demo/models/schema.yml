@@ -1,0 +1,13 @@
+version: 2
+models:
+  - name: stg_order
+    description: "Staging table for orders data from Jaffle Shop"
+    columns:
+      - name: order_id
+        description: "Unique identifier for each order"
+      - name: customer_id
+        description: "Identifier for the customer who placed the order"
+      - name: order_date
+        description: "Date when the order was placed"
+      - name: status
+        description: "Current status of the order"
